@@ -1,5 +1,5 @@
 {
-  "extends": "@motion-canvas/2d/tsconfig.project.json",
+  "extends": "@canvas-commons/2d/tsconfig.project.json",
   "include": ["src"],
   "compilerOptions": {
     "ignoreDeprecations": "6.0"

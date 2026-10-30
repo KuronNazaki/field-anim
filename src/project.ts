@@ -1,8 +1,7 @@
-import { makeProject } from "@motion-canvas/core";
+import { makeProject } from '@canvas-commons/core'
 
-import example from "./scenes/example?scene";
-import first from "./scenes/first?scene";
+import electricField from './scenes/electric-field?scene'
 
 export default makeProject({
-  scenes: [first],
-});
+  scenes: [electricField],
+})
